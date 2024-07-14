@@ -3,29 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
     <title>Get rickrolled!</title>
-
-    <!-- Import the webpage's stylesheet -->
-    <link rel="stylesheet" href="style.css" />
     
+
   </head>
   <body>
     <video width="100%" height="90%" autoplay muted loop>
       <source src="/rick.mp4" type="video/mp4">
       Loading unsuccessful...
     </video>
-    
-    <div style="position:fixed;bottom:20px;right:20px;">
-      <a href="https://github.com/ajsya/rickroll/">
-        <img scr="GitHub-Emblem.png" alt="GitHub Emblem">
-      </a>
-    </div>
-    
     <script>
-      document.getElementById('vid').play();
+      document.querySelector('video').play();
     </script>
   </body>
 </html>
-
-<!-- Comment -->  
